@@ -12,7 +12,7 @@ Baidu cloud Link:https://pan.baidu.com/s/1oM3F4bopX6xZpgiampArxA?pwd=xe83 <br/>
 Extract the code:xe83 
 # Results
 
-![image](result/res1.tif)
+![image](result/res1.gif)
 
 
 # Acknowledgement 
