@@ -20,6 +20,8 @@ class Corr_pyTorch(nn.Module):
         self.max_hdisp = max_displacement
         self.padlayer = nn.ConstantPad2d(pad_size, 0)
 
+
+    
     def forward(self, in1, in2):
         bz, cn, hei, wid = in1.shape
         f1 = F.unfold(in1, kernel_size=self.kernel_size, padding=self.kernel_size // 2, stride=self.stride1)
