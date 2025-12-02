@@ -149,6 +149,8 @@ class ResidualBlock(nn.Module):
             self.downsample = nn.Sequential(
                 nn.Conv2d(in_planes, planes, kernel_size=1, stride=stride), self.norm3)
 
+
+    
     def forward(self, x):
         y = x
         y = self.relu(self.norm1(self.conv1(y)))
